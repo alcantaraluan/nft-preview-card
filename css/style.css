@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --color-main-bg: hsl(217, 54%, 11%);
+    --color-card-bg: hsl(216, 50%, 16%);
+    --color-line: hsl(215, 32%, 27%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-main-bg);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 350px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--color-card-bg);
+    padding: 18px;
+    border-radius: 14px;
+    box-shadow: 0px 20px 30px 5px rgba(0, 0, 0, 0.452);
+}
+
+.card .image-nft {
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.card .image-nft img {
+    width: 100%;
+    display: block;
+}
+
+.image-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: none;
+}
+
+.image-overlay img {
+    position: absolute;
+    max-width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-nft:hover .image-overlay {
+    display: block;
+}
+
+.card .description .title a {
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.375rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card .description .title a:hover,
+.card .author a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.card .description p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.card .information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card .information .price {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card .information .clock {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card .author {
+    border-top: 1px solid var(--color-line);
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.card .author img {
+    width: 32px;
+    height: 32px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.card .author p {
+    color: hsl(215, 51%, 70%);
+}
+
+.card .author a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
