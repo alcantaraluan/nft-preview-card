@@ -25,7 +25,7 @@ Users should be able to:
  
 ### Links
  
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/nft-preview-card-component-using-html5-and-css3-flexbox-nL6Wm98OI7)
 - Live Site URL: (https://alcantaraluan.github.io/nft-preview-card/)
  
 ### Built with
@@ -51,7 +51,7 @@ O desafio trata-se do seguinte projeto: [NFT preview card component challenge on
 - [O desafio](#the-challenge)
 - [Capturas de tela](#screenshot)
 - [Links](#links)
-- [Built with](#built-with)
+- [Construído com](#built-with)
 - [Autor](#author)
  
 ### O desafio
@@ -69,7 +69,7 @@ Os usuários devem ser capazes de:
  
 ### Links
  
-- Solução: (https://your-solution-url.com)
+- Solução: (https://www.frontendmentor.io/solutions/nft-preview-card-component-using-html5-and-css3-flexbox-nL6Wm98OI7)
 - Site com o projeto hospedado: (https://alcantaraluan.github.io/nft-preview-card/)
  
 ### Construído com
